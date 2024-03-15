@@ -27,5 +27,5 @@ for (int i = 0; i < external.GetLength(0); i++)
 
 void DisplayEmployeeEmail (string employeeFirstName, string employeeLastName, string domain = "contoso.com")
 {
-    
+    Console.WriteLine($"{employeeFirstName.Substring(0,2).ToLower()}{employeeLastName.ToLower()}@{domain}");
 }
